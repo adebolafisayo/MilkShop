@@ -1,10 +1,89 @@
-.text-centre {
-    text-align: center;
+#home {
+    background-image: url('https://media.istockphoto.com/id/1472388969/photo/smiling-barber-and-customer-in-the-barbershop-watching-a-video-on-a-smartphone.webp?b=1&s=170667a&w=0&k=20&c=3vMBrw5ueOk6HFQnaCVb0-Y4Tva-uMKqelKIcARONWM=');
+    background-repeat: no-repeat;
+    padding: 20px;
+  font-size: 200%;
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  /* border-bottom: 30px solid #0f4098;  */
+   width: 100%;
+  align-items: center;
+   
+} 
+
+#owner {
+    background-image: url("https://media.istockphoto.com/id/1374453227/photo/shot-of-a-young-businesswoman-standing-in-an-office-at-work.webp?b=1&s=170667a&w=0&k=20&c=sUfpzZQt8vdDS-Ev7dbbwIbC9afxNchfAxecrO9WwHY=");
+    background-repeat: no-repeat;
+    padding: 10px;
+    font-size: 200%; 
+  text-align: left;
+  background-position: center;
+  background-size: cover;
+  /* border-bottom: 30px solid #0f4098;  */
+  height: 700px;
+  width: 100%;
+  align-items: center;
+ 
 }
 
-.text-white {
+/* .page-header {
+    height: 200vh;
+} */
+/* header > p {
     color: white;
+}  */
+.button {
+   border-style: solid;
+   border-color: black;
 }
-#organic-option {
-    background-color: cornflowerblue;
+
+a {
+    color: black;
 }
+p.companyhistory {
+    text-align: left;
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2 {
+    align-items: center;
+}
+.clipper-image {
+    width: 100px;
+     height: auto; 
+   float: right;
+  display: inline-block;
+}
+
+#text-align {
+    text-align: center;
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    }
+    div.gallery img {
+        width: 100%;
+        height: auto;
+        }
+     #location {
+        clear: left;
+        background-image: url("https://media.istockphoto.com/id/483659149/photo/professional-scissors.webp?b=1&s=170667a&w=0&k=20&c=jg_d5FMscvIxskjabgGzqSVtF_pCLNUHPT9rEwSpx_Q=");
+        background-repeat: no-repeat;
+        padding: 10px;
+        font-size: 200%; 
+      text-align: left;
+      background-position: center;
+      background-size: cover;  
+        height: 700px; 
+       width: 100%; 
+       align-items: center; 
+     }   
+     
+    
+    
+
