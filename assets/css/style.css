@@ -16,12 +16,12 @@
     background-image: url("https://media.istockphoto.com/id/1374453227/photo/shot-of-a-young-businesswoman-standing-in-an-office-at-work.webp?b=1&s=170667a&w=0&k=20&c=sUfpzZQt8vdDS-Ev7dbbwIbC9afxNchfAxecrO9WwHY=");
     background-repeat: no-repeat;
     padding: 10px;
-    font-size: 200%; 
+    font-size: 150%; 
   text-align: left;
   background-position: center;
   background-size: cover;
   /* border-bottom: 30px solid #0f4098;  */
-  height: 700px;
+  height: 500px;
   width: 100%;
   align-items: center;
  
@@ -36,6 +36,7 @@
 .button {
    border-style: solid;
    border-color: black;
+   color: darkblue;
 }
 
 a {
@@ -75,14 +76,28 @@ div.gallery {
         background-image: url("https://media.istockphoto.com/id/483659149/photo/professional-scissors.webp?b=1&s=170667a&w=0&k=20&c=jg_d5FMscvIxskjabgGzqSVtF_pCLNUHPT9rEwSpx_Q=");
         background-repeat: no-repeat;
         padding: 10px;
-        font-size: 200%; 
+        font-size: 100%; 
       text-align: left;
       background-position: center;
       background-size: cover;  
         height: 700px; 
        width: 100%; 
        align-items: center; 
-     }   
+     }  
+     P {
+      line-height: 32px;   
+      margin-bottom: 30px; 
+     } 
+     .navbar-item {
+      display: flex;
+      justify-content: space-evenly;
+      color: black;
+      text-align: center;
+      text-decoration: none;
+      font-size: 17px;
+      border-bottom: 3px solid transparent;
+      
+  }
      
     
     
