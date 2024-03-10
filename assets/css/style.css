@@ -7,7 +7,7 @@
   background-position: center;
   background-size: cover;
   /* border-bottom: 30px solid #0f4098;  */
-   width: 100%;
+   width: auto;
   align-items: center;
    
 } 
@@ -22,7 +22,7 @@
   background-size: cover;
   /* border-bottom: 30px solid #0f4098;  */
   height: 500px;
-  width: 100%;
+  width: auto;
   align-items: center;
  
 }
@@ -52,7 +52,7 @@ h2 {
     align-items: center;
 }
 .clipper-image {
-    width: 100px;
+    width: 10%;
      height: auto; 
    float: right;
   display: inline-block;
@@ -68,7 +68,7 @@ div.gallery {
     width: 180px;
     }
     div.gallery img {
-        width: 100%;
+        width: 70%;
         height: auto;
         }
      #location {
@@ -81,22 +81,50 @@ div.gallery {
       background-position: center;
       background-size: cover;  
         height: 700px; 
-       width: 100%; 
+       width: auto; 
        align-items: center; 
      }  
      P {
       line-height: 32px;   
       margin-bottom: 30px; 
      } 
-     .navbar-item {
+     header {
+      background-color: white;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 50px;
       display: flex;
-      justify-content: space-evenly;
+      align-items: center;
+  }
+  
+  header * {
+      display: inline;
+  }
+  
+  header li {
+      margin: 20px;
+  }
+  
+  header li a {
       color: black;
-      text-align: center;
       text-decoration: none;
-      font-size: 17px;
-      border-bottom: 3px solid transparent;
-      
+
+ .appointment {
+    text-align: center;
+    width: 70px;
+    background-color: khaki;
+  border-radius: 50%;
+  border: 3px;
+  height: 30px;
+  }
+  .appointment-booking {
+    background-image: url("https://media.istockphoto.com/id/1441548690/photo/black-customers-receive-a-haircut-from-barbers-at-a-black-owned-barbershop.webp?b=1&s=170667a&w=0&k=20&c=PS8rPXHdV_9u_11gERlxIfQtMLI-fTh5smGM-eoa4eg=");
+    background-repeat: no-repeat;
+    width: 70%;
+    height: 100%;
+    background-size: cover;
   }
      
     
